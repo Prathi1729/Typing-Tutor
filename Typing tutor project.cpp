@@ -1,11 +1,11 @@
 #include<iostream>
 #include<stdio.h>
-#include<iomanip.h> 
-#include<fstream.h>
-#include<conio.h>
-#include<process.h>
-#include<ctype.h>
-#include<time.h>
+#include<iomanip.h>     #Set decimal precision
+#include<fstream.h>     #File handling
+#include<conio.h>       #Console input output library functions
+#include<process.h>     #Insert the content of a user-defined or system header file
+#include<ctype.h>       #Declares a set of functions to classify (and transform) individual characters
+#include<time.h>	#Time function
 using namespace std;
 void tips(void);
 void practice(void);
