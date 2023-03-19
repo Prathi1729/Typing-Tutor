@@ -175,7 +175,7 @@ void practice(void)
 	textcolor(WHITE);
 	gotoxy(25,29);
 	cout<<setprecision(2);
-	cout<<"Speed - "<<(9*60)/difftime(t2,t1)<<"words per min";
+	cout<<"Speed - "<<(9*60)/difftime(t2,t1)<<"words per min";   	# Take the number of words typed in a minute with no typos and divide by five
 	
 	gotoxy(25,31);
 	cout<<"Accuracy - "<<(float((noc-count))/float(noc))*100.00<<" %";
